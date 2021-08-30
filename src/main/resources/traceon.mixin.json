@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "lunaglaxe7.random.traceon.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PlayerInventoryMixin",
+    "PlayerEntityMixin",
+    "SlotMixin",
+    "InGameHudMixin",
+    "ItemEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors":{
+    "defaultRequire": 1
+  }
+}

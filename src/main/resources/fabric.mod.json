@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "traceon",
+  "version": "${version}",
+
+  "name": "Trace on",
+  "description": "No more description.",
+  "authors": ["LunaGlaxe7"],
+
+  "icon": "assets/traceon/icon.png",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "lunaglaxe7.random.traceon.TraceOnMain"
+    ],
+    "client": [
+      "lunaglaxe7.random.traceon.client.TraceOnClient"
+    ]
+  },
+
+  "mixins": [
+    "traceon.mixin.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "fabric-key-binding-api-v1": "*",
+    "minecraft": "1.17.*",
+    "java": ">=16"
+  }
+}
