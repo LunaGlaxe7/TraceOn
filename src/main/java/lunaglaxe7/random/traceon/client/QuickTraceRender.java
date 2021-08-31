@@ -176,7 +176,7 @@ public class QuickTraceRender extends DrawableHelper {
                         int maxLife = item.getNbt().getInt("TraceItemMaxLife");
                         itemRenderer.renderInGui(item, 0, window.getScaledHeight() - 17 * (i + 1));
 
-                        fill(matrices, 0, window.getScaledHeight() - 2 - 17 * i, (int) (16 * (timer / (double) maxLife)), window.getScaledHeight() - 17 * i, 0xff0000ff);
+                        fill(matrices, 0, window.getScaledHeight() - 2 - 17 * i, (int) (16 * (timer / (double) maxLife)), window.getScaledHeight() - 17 * i, 0xff3ce1ff);
 
                     }
                 }
